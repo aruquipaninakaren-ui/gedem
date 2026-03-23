@@ -1,0 +1,196 @@
+
+    .navbar-fijo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* evita que el contenido quede debajo */
+body {
+  padding-top: 160px;
+}
+  .video-section {
+      padding: 40px 0; /* Espacio arriba y abajo */
+  
+    }
+    .video-section video {
+      width: 100%;
+      height: auto;
+      border-radius: 15px;
+      object-fit: cover; /* Mantiene proporción sin deformar */
+    }
+    header{
+        background-color: #e9ecef;
+     }
+     /*aqui otro*/
+        nav ul li a {
+            display: block;
+            /* Convertimos los elementos a en elementos bloque para manipular el padding */
+            padding: 20px;
+            color: #016098;
+            text-decoration: none;
+        }
+
+        nav ul li:hover {
+            background: #016098;
+        }
+
+        .contenido {
+            padding-top: 80px;
+        }
+
+        .social {
+            position: fixed;
+            left: 0;
+            top: 200px;
+            z-index: 2000;
+        }
+
+        .social ul {
+            list-style: none;
+        }
+
+        .social ul li a {
+            display: inline-block;
+            color: #ffffff;
+            background: #000;
+            padding: 10px 15px;
+            text-decoration: none;
+        }
+
+        .social ul li .icon-facebook {
+            background-color: #000;
+        }
+
+        .social ul li .icon-twitter {
+            background-color: #000;
+        }
+
+        .social ul li .icon-pinterest {
+            background-color: #000;
+        }
+
+        .social ul li .icon-instagram {
+            background-color: #000;
+        }
+
+        .social ul li .icon-youtube {
+            background-color: #000;
+        }
+
+        .social ul li a:hover {
+            padding: 10px 30px;
+            background: #016098;
+        }
+
+        /*columnas*/
+        /* Estilo de las pestañas del menú (izquierda) */
+        .menu-informativo {
+            list-style: disc;
+            /* Mantiene el punto de la lista */
+            padding-left: 20px;
+        }
+
+        .menu-informativo li {
+            margin-bottom: 15px;
+        }
+
+        .menu-informativo li a {
+            display: inline-block;
+            text-decoration: none;
+            color: #4b0082;
+            /* Color morado como el de tu imagen */
+            font-weight: 500;
+            padding: 8px 25px;
+            background: linear-gradient(to right, #d1d1d1, #f8f9fa);
+            /* Degradado gris */
+            border-radius: 50px 0 0 50px;
+            /* Forma de pestaña elíptica */
+            border: 1px solid #ccc;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            transition: all 0.3s ease;
+        }
+
+        .menu-informativo li a:hover {
+            padding-left: 35px;
+            background: #016098;
+            color: white;
+        }
+
+
+        /* Títulos con línea fina */
+        h5 {
+            font-size: 1.1rem;
+            letter-spacing: 1px;
+            color: #333;
+            border-color: #dee2e6;
+        }
+
+        /*slider*/
+        .carousel-inner {
+            height: 500px;
+            /* tamaño fijo (evita que crezca) */
+            background-color: #faf8f8;
+            /* opcional, para que se vea mejor */
+        }
+
+        .carousel-item {
+            height: 500px;
+            text-align: center;
+        }
+
+        .carousel-item img {
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+        }
+
+        /*footer*/
+        .footer-basic {
+            background-color: #a8a5a5e6;
+            /* gris */
+            color: #575555;
+          
+        }
+
+        .footer-basic .social a {
+            color: rgb(9, 9, 9);
+            font-size: 24px;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        .footer-basic .list-inline {
+            padding: 0;
+            margin: 15px 0;
+        }
+
+        .footer-basic .list-inline a {
+            color: rgb(10, 10, 10);
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .footer-basic .list-inline a:hover {
+            text-decoration: underline;
+        }
+
+        .footer-basic .copyright {
+            margin-top: 15px;
+            font-size: 14px;
+            opacity: 0.8;
+        }
+   /*     header {
+            position: relative;
+            width: 100%;
+            min-height: 200px;
+            background-image: url('../imagenes/imagen\ slider.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }*/
+        
